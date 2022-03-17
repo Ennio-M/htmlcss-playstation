@@ -44,6 +44,13 @@
     --bs-body-color-rgb: 33,37,41;
     --bs-body-bg-rgb: 255,255,255;
 }
+/* general */
+img{
+    width: 100%;
+}
+body{
+    font-size: 18px;
+}
 /* pagina */
 /* header */
 header{
@@ -61,15 +68,22 @@ header{
     width: 100px;
 }
 /* intestazione e navbar */
+.header-bottom{
+    background-color: var(--bs-white);
+}
 ._logo-ps{
-    width: 60px;
+    width: 70px;
 }
 header a{
     color: var(--bs-black) !important;
+    font-size: 20px;
+    font-weight: 500;
 }
 ._accedi{
     color: var(--bs-white);
     background-color: var(--bs-black);
+    font-size: 20px;
+    font-weight: 500;
 }
 ._accedi:hover{
     color: var(--bs-white);
@@ -78,6 +92,30 @@ header a{
     width: 30px;
 }
 ._search img{
-    width: 100%;
     cursor: pointer;
+}
+/* corpo principale */
+section h2{
+    font-size: 50px;
+}
+/* prima sezione */
+#jumbotron1{
+    width: 100%;
+    height: 675px;
+    margin-top: 126px;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--bs-white);
+
+}
+._acquista{
+    color: var(--bs-white);
+    background-color: var(--bs-red);
+}
+._acquista:hover{
+    background-color: var(--bs-white);
+}
+._description>*{
+    margin-top: 20px;
 }

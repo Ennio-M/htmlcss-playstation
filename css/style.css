@@ -49,7 +49,7 @@ img{
     width: 100%;
 }
 body{
-    font-size: 18px;
+    font-size: 20px;
 }
 /* pagina */
 /* header */
@@ -96,18 +96,13 @@ header a{
 }
 /* corpo principale */
 section h2{
-    font-size: 50px;
+    font-size: 45px;
 }
-/* prima sezione */
-#jumbotron1{
+.hero{
     width: 100%;
-    height: 675px;
-    margin-top: 126px;
-    background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-position: center;
     color: var(--bs-white);
-
 }
 ._acquista{
     color: var(--bs-white);
@@ -118,4 +113,18 @@ section h2{
 }
 ._description>*{
     margin-top: 20px;
+}
+/* prima sezione */
+#jumbotron1{
+    height: 675px;
+    margin-top: 126px;
+    background-image: url(../img/jumbo-bg.png);
+    padding-bottom: 40px;
+}
+/* terza sezione */
+#jumbotron2{
+    height: 675px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    padding-bottom: 40px;
 }

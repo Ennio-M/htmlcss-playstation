@@ -49,7 +49,7 @@ img{
     width: 100%;
 }
 body{
-    font-size: 20px;
+    font-size: 22px;
 }
 /* pagina */
 /* header */
@@ -58,11 +58,12 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
 }
 /* banner superiore sony */
 .header-top{
     background-color: var(--bs-black);
-    height: 30px;
+    height: 40px;
 }
 ._logo-sony{
     width: 100px;
@@ -95,8 +96,14 @@ header a{
     cursor: pointer;
 }
 /* corpo principale */
+section{
+    padding: 40px 0 40px 0;
+}
 section h2{
     font-size: 45px;
+}
+h1{
+    font-size: 55px;
 }
 .hero{
     width: 100%;
@@ -119,12 +126,57 @@ section h2{
     height: 675px;
     margin-top: 126px;
     background-image: url(../img/jumbo-bg.png);
-    padding-bottom: 40px;
+}
+/* seconda sezione */
+._round-game{
+    border-radius: 20px;
+}
+._ps5-title{
+    margin: 90px 0;
+    text-align: center;
+}
+._ps5-title :first-child{
+    text-transform: uppercase;
+    font-weight: 600;
+    color: var(--bs-blue);
+    margin-bottom: 0;
+}
+._ps5-title p, ._ps5-left p{
+    margin-top: 30px;
+    color: var(--bs-gray);
+    font-weight: 600;
+}
+._more-info{
+    margin-top: 20px;
+    color: var(--bs-white);
+    background-color: var(--bs-blue);
+}
+._more-info:hover{
+    color: var(--bs-white);
+    background-color: var(--bs-blue);
+}
+._accessori{
+    margin-top: 40px;
+}
+._thumb{
+    text-align: center;
+    border-bottom: 3px solid transparent;
+    opacity: 0.6;
+}
+._thumb img{
+    width: 70%;
+}
+._thumb-active{
+    border-color:var(--bs-blue);
+    opacity: 1;
+}
+._thumb:active{
+    border-color:var(--bs-blue);
+    opacity: 1;
 }
 /* terza sezione */
 #jumbotron2{
-    height: 675px;
+    height: 775px;
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-size: cover;
-    padding-bottom: 40px;
 }

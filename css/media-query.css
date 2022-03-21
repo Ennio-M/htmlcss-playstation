@@ -5,4 +5,12 @@
     .thumb img{
         width: 100%;
     }
+    #jumbotron3-psplus .container{
+        background-image: none;
+    }
+}
+@media screen and (max-width: 1200px){
+    #jumbotron3-psplus .container{
+        height: 350px;
+    }
 }

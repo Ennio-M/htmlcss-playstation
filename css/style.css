@@ -132,17 +132,17 @@ h1{
 ._round-game{
     border-radius: 20px;
 }
-._ps5-title{
+._ps-title{
     margin: 90px 0;
     text-align: center;
 }
-._ps5-title :first-child{
+._ps-title p:first-child{
     text-transform: uppercase;
     font-weight: 600;
     color: var(--bs-blue);
     margin-bottom: 0;
 }
-._ps5-title p, ._ps5-left p{
+._ps-title p, ._ps5-left p{
     margin-top: 30px;
     color: var(--bs-gray);
     font-weight: 600;
@@ -192,4 +192,13 @@ h1{
 }
 #games-cards h3{
     margin: 30px 0 25px 0;
+}
+/* quinta sezione */
+._ps4-box-title p{
+    margin-top: 20px;
+    color: var(--bs-gray);
+    font-weight: 600;
+}
+._ps4-box-title ._more-info{
+    margin: auto;
 }

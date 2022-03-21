@@ -3,6 +3,7 @@
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
+    --bs-psnow-purple: #161C3B;
     --bs-pink: #d63384;
     --bs-red: #dc3545;
     --bs-orange: #fd7e14;
@@ -218,15 +219,36 @@ h1{
     background-position: right;
     background-repeat: no-repeat;
 }
-._esplora{
+._esplora-plus{
     background-color: var(--bs-button-gray);
     color: var(--bs-blue);
 }
-._esplora{
+._esplora-plus:hover{
     background-color: var(--bs-button-gray);
     color: var(--bs-blue);
 }
 /* settima sezione */
 #store img{
     cursor: pointer;
+}
+/* ottava sezione */
+#jumbotron4-psnow{
+    background-color: var(--bs-psnow-purple);
+    padding: 0;
+    font-weight: 400;
+}
+#jumbotron4-psnow .container{
+    height: 500px;
+    background-image: url(../img/ps-now-april-featured-image-block.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+._esplora-now{
+    color: var(--bs-black);
+    background-color: var(--bs-white);
+}
+._esplora-now:hover{
+    color: var(--bs-black);
+    background-color: var(--bs-white);
 }

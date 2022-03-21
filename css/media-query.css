@@ -8,9 +8,15 @@
     #jumbotron3-psplus .container{
         background-image: none;
     }
+    #jumbotron4-psnow .container{
+        background-image: none;
+    }
 }
 @media screen and (max-width: 1200px){
     #jumbotron3-psplus .container{
+        height: 350px;
+    }
+    #jumbotron4-psnow .container{
         height: 350px;
     }
 }

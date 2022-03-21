@@ -226,3 +226,7 @@ h1{
     background-color: var(--bs-button-gray);
     color: var(--bs-blue);
 }
+/* settima sezione */
+#store img{
+    cursor: pointer;
+}

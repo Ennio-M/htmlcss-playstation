@@ -1,6 +1,7 @@
 /* colori */
 :root {
     --bs-blue: #0d6efd;
+    --bs-footer-blue:#00439C;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
     --bs-psnow-purple: #161C3B;
@@ -251,4 +252,30 @@ h1{
 ._esplora-now:hover{
     color: var(--bs-black);
     background-color: var(--bs-white);
+}
+/* footer */
+footer{
+    background-color: var(--bs-footer-blue);
+    color: var(--bs-white);
+    padding: 6em 0;
+    font-size: 20px;
+}
+._footer-logo{
+    width: 100px;
+}
+._globe{
+    width: 25px;
+}
+._country{
+    margin: 0;
+}
+footer ul{
+    list-style: none;
+}
+._sie img{
+    width: 200px;
+    margin-bottom: 2em;
+}
+._sie span{
+    cursor: pointer;
 }

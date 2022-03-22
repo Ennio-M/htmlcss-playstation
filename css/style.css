@@ -85,6 +85,36 @@ header a{
     font-size: 20px;
     font-weight: 500;
 }
+.header-bottom .fa-chevron-down{
+    font-size: 15px;
+}
+.header-bottom li a.show i.fa-chevron-down{
+    transform: rotate(180deg);
+    transition: all .5s;
+}
+.header-bottom .navbar-nav .nav-link:hover{
+    color: var(--bs-blue) !important;
+}
+.nav-item{
+    position: static;
+}
+.dropdown-menu{
+    width: 100%;
+    margin: 0 !important;
+    text-align: center;
+}
+.dropdown-menu>._dropdown-up, .dropdown-menu ._dropdown-bottom{
+    display: inline-block;
+}
+.dropdown-menu ._dropdown-bottom a{
+    text-decoration: none;
+}
+._dropdown-bottom{
+    padding: 0 1.5em;
+}
+.dropdown-item img{
+    width: 80px;
+}
 ._accedi{
     color: var(--bs-white);
     background-color: var(--bs-black);
@@ -135,6 +165,19 @@ h1{
 /* seconda sezione */
 ._round-game{
     border-radius: 20px;
+    border: 5px solid transparent;
+    padding: 2px;
+    cursor: pointer;
+}
+._round-game-active{
+    border-color: var(--bs-blue);
+}
+._round-game:active{
+    border-color: var(--bs-blue);
+}
+._round-game:hover{
+    transform: translate(0, -20px);
+    transition: all .3s ease-in-out;
 }
 ._ps-title{
     margin: 90px 0;
